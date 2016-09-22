@@ -14,6 +14,9 @@
 		91BA61881C562C0700250EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91BA61861C562C0700250EA8 /* LaunchScreen.storyboard */; };
 		91BA61931C562C0700250EA8 /* AttackingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BA61921C562C0700250EA8 /* AttackingGameTests.swift */; };
 		91BA619E1C562C0700250EA8 /* AttackingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BA619D1C562C0700250EA8 /* AttackingGameUITests.swift */; };
+		91BA61AC1C5632B800250EA8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BA61AB1C5632B800250EA8 /* Player.swift */; };
+		91BA61AE1C56384D00250EA8 /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BA61AD1C56384D00250EA8 /* Soldier.swift */; };
+		91BA61B01C56419700250EA8 /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BA61AF1C56419700250EA8 /* Orc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		91BA61991C562C0700250EA8 /* AttackingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttackingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91BA619D1C562C0700250EA8 /* AttackingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackingGameUITests.swift; sourceTree = "<group>"; };
 		91BA619F1C562C0700250EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91BA61AB1C5632B800250EA8 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		91BA61AD1C56384D00250EA8 /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
+		91BA61AF1C56419700250EA8 /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +86,6 @@
 				91BA617C1C562C0700250EA8 /* AttackingGame */,
 				91BA61911C562C0700250EA8 /* AttackingGameTests */,
 				91BA619C1C562C0700250EA8 /* AttackingGameUITests */,
-				91BA617B1C562C0700250EA8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +97,7 @@
 				91BA61991C562C0700250EA8 /* AttackingGameUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		91BA617C1C562C0700250EA8 /* AttackingGame */ = {
@@ -103,6 +109,10 @@
 				91BA61841C562C0700250EA8 /* Assets.xcassets */,
 				91BA61861C562C0700250EA8 /* LaunchScreen.storyboard */,
 				91BA61891C562C0700250EA8 /* Info.plist */,
+				91BA617B1C562C0700250EA8 /* Products */,
+				91BA61AB1C5632B800250EA8 /* Player.swift */,
+				91BA61AD1C56384D00250EA8 /* Soldier.swift */,
+				91BA61AF1C56419700250EA8 /* Orc.swift */,
 			);
 			path = AttackingGame;
 			sourceTree = "<group>";
@@ -257,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				91BA61801C562C0700250EA8 /* ViewController.swift in Sources */,
+				91BA61AC1C5632B800250EA8 /* Player.swift in Sources */,
+				91BA61AE1C56384D00250EA8 /* Soldier.swift in Sources */,
+				91BA61B01C56419700250EA8 /* Orc.swift in Sources */,
 				91BA617E1C562C0700250EA8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
