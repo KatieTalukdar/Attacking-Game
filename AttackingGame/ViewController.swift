@@ -43,15 +43,15 @@ class ViewController: UIViewController{
 
 
     func gameEnd(){
-        winningLabel.hidden = false
-        restart.hidden = false
-       attack1Btn.hidden = true
-        attack2Btn.hidden = true
+        winningLabel.isHidden = false
+        restart.isHidden = false
+       attack1Btn.isHidden = true
+        attack2Btn.isHidden = true
         
     }
     
     
-    @IBAction func attck1Btn(sender: UIButton) {
+    @IBAction func attck1Btn(_ sender: UIButton) {
       
        
            
@@ -66,7 +66,7 @@ class ViewController: UIViewController{
             if orc.isAlive == false {
                 gameEnd()
                 winningLabel.text = "\(soldier.name) Won!"
-                orcImg.hidden = true
+                orcImg.isHidden = true
             }
       }
     
@@ -74,12 +74,12 @@ class ViewController: UIViewController{
        //NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector:"HideBtn(1)", userInfo:nil, repeats:true)
     }
     
-    func HideBtn(Btn: Int)
+    func HideBtn(_ Btn: Int)
     {
         
     }
 
-    @IBAction func attack2Btn(sender: AnyObject) {
+    @IBAction func attack2Btn(_ sender: AnyObject) {
         
         
         
@@ -93,7 +93,7 @@ class ViewController: UIViewController{
             if soldier.isAlive == false  {
                 gameEnd()
                 winningLabel.text = "\(orc.name) Won!"
-                soldierImg.hidden = true
+                soldierImg.isHidden = true
 
             
                 }
@@ -107,13 +107,13 @@ class ViewController: UIViewController{
     
    
 
-@IBAction func whenRestartPressed(sender: AnyObject) {
-    restart.hidden = true
-    orcImg.hidden = false
-    soldierImg.hidden = false
-    attack1Btn.hidden = false
-    attack2Btn.hidden = false
-    winningLabel.hidden = true
+@IBAction func whenRestartPressed(_ sender: AnyObject) {
+    restart.isHidden = true
+    orcImg.isHidden = false
+    soldierImg.isHidden = false
+    attack1Btn.isHidden = false
+    attack2Btn.isHidden = false
+    winningLabel.isHidden = true
     textLabel.text = ""
     
     SetPlayers()

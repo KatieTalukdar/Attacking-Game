@@ -9,9 +9,9 @@
 import Foundation
 
 class Player {
-    private var _name :String
-    private var _hp = 400
-    private var _attackPower = 10
+    fileprivate var _name :String
+    fileprivate var _hp = 400
+    fileprivate var _attackPower = 10
     
     
     
@@ -84,7 +84,7 @@ class Player {
         
     }
     
-    func attemptAttack(attackPower:Int)->Bool{
+    func attemptAttack(_ attackPower:Int)->Bool{
         
           self._hp -= attackPower
             

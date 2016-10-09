@@ -9,7 +9,7 @@
 import Foundation
 
 class Orc : Player{
-    private var _loot = ["Strangled Hen","Rusty Dagger"]
+    fileprivate var _loot = ["Strangled Hen","Rusty Dagger"]
     var loot :[String]{
         get{
             return _loot

@@ -10,7 +10,7 @@ import Foundation
 
 class Soldier:Player{
     
-    private var _weapons = ["Sheild","Sword","Arrow"]
+    fileprivate var _weapons = ["Sheild","Sword","Arrow"]
     var weapon :[String]{
         get{
             return _weapons
